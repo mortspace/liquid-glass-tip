@@ -1,0 +1,33 @@
+{
+  "name": "liquid-tip",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Pay button with an Add tip button beside it, made of liquid glass. The tip picker grows out of the button and folds back into it.",
+  "license": "MIT",
+  "author": "mortspace",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "web-haptics": "^0.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
