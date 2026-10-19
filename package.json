@@ -1,5 +1,5 @@
 {
-  "name": "liquid-tip",
+  "name": "liquid-glass-tip",
   "version": "0.1.0",
   "private": true,
   "description": "A Pay button with an Add tip button beside it, made of liquid glass. The tip picker grows out of the button and folds back into it.",

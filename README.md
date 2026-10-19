@@ -2,7 +2,7 @@
   <img src="docs/tip.webp" width="520" alt="Tapping Add tip: the button turns milky, a tip picker grows up out of it, 10% is picked, the picker folds back into the button and Pay updates to £13.64" />
 </p>
 
-# Liquid Tip
+# Liquid Glass Tip
 
 A Pay button with Add tip beside it, made of liquid glass. Tap Add tip and the picker grows out of the button. Pick a tip and it folds back in.
 
@@ -19,8 +19,8 @@ A Pay button with Add tip beside it, made of liquid glass. Tap Add tip and the p
 Needs Node 20.19+ or 22.12+.
 
 ```bash
-git clone https://github.com/mortspace/liquid-tip
-cd liquid-tip
+git clone https://github.com/mortspace/liquid-glass-tip
+cd liquid-glass-tip
 npm install
 npm run dev
 ```
@@ -29,14 +29,14 @@ Open http://localhost:5173 and tap Add tip.
 
 ## Use it in your app
 
-Liquid Tip is one folder with one dependency. Copy `src` into your project, say as `liquid-tip`, then install it:
+Liquid Glass Tip is one folder with one dependency. Copy `src` into your project, say as `liquid-glass-tip`, then install it:
 
 ```bash
 npm install web-haptics
 ```
 
 ```tsx
-import { Tip } from './liquid-tip'
+import { Tip } from './liquid-glass-tip'
 
 export function Checkout() {
   return <Tip subtotal={24.8} onPay={({ total, tip }) => charge(total, tip)} />

@@ -68,7 +68,7 @@ function Demo() {
   return (
     <main className="demo">
       <header className="demo-head">
-        <h1>Liquid Tip</h1>
+        <h1>Liquid Glass Tip</h1>
         <p>Tap Add tip. The picker grows out of the button, and folds back in when you choose.</p>
       </header>
       <Fit>
